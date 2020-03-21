@@ -2,5 +2,3 @@ foo.txt
 AAA
 
 BBBB
-
-CCCCC
