@@ -1,7 +1,0 @@
-foo.txt
-AAA
-
-BBBB
-
-
-DDDD
