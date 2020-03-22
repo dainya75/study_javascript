@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html"; charset=utf-8">
+    <body>
+        <script type="text/javascript">
+            var i,tag="";
+            var flag=["canada.gif","korea.gif","australia.gif","japan.gif"];
+            var country=["カナダ","韓国","オーストラリア","日本"];
+            for (i=0; i<4; i++){
+                tag+="<img src='"+flag[i]+"' />";
+                tag+=country[i]+"<br /><br />";
+            }
+            document.body.innerHTML=tag;
+        </script>
+    </body>
+</html>
