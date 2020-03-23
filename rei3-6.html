@@ -2,19 +2,19 @@
 <html>
     <head>
         <script type="text/javascript">
-            var flag=false;
             function disp()
             {
-                var obj=document.getElementById("boy");
-                if (flag)
-                    obj.src="boy2.gif";
-                else
-                    obj.src="boy1.gif";
-                flag=!flag;
+                var msg=document.getElementById("msg");
+                var namae=document.getElementById("namae");
+                msg.innerHTML="ようこそ"+namae.value+"さん"; 
             }
         </script>
     </head>
-    <body onLoad="setInterval(disp,500)">
-        <img id="boy" src="boy1.gif" />
+    <body>
+        <input id="namae" type="text" size="14" />
+        <input type="button" value="表示" onClick="disp()" />
+        <div id="msg">
+            ここの内容が変わります
+        </div>
     </body>
 </html>
